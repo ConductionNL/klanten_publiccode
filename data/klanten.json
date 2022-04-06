@@ -1,0 +1,38 @@
+{
+  "collection": "https://raw.githubusercontent.com/VNG-Realisatie/klanten-api/master/src/openapi.yaml",
+  "schemas": {
+    "Klant": [
+      {
+        "properties": {
+          "bronorganisatie": "999990639",
+          "klantnummer": "00000221",
+          "bedrijfsnaam": "Conduction B.V.",
+          "functie": "Developer",
+          "achternaam": "Vaak",
+          "voornaam": "Klaas",
+          "websiteUrl": "https://conduction.nl",
+          "telefoonnummer": "0612345789",
+          "emailadres": "test@conduction.nl",
+          "adres": {
+            "straatnaam": "Teststraat",
+            "huisnummer": 12,
+            "huisletter": "A",
+            "huisnummertoevoeging": "1",
+            "postcode": "1000AA",
+            "woonplaatsnaam": "Amsterdam",
+            "landcode": "6030"
+          },
+          "subject": "https://example.com",
+          "subjectType": "natuurlijk_persoon",
+          "subjectIdentificatie": {
+            "inpBsn": "999993653",
+            "anpANummer": "8940402024",
+            "geslachtsnaam": "Vaak",
+            "voorletters": "K",
+            "geslachtsaanduiding": "o"
+          }
+        }
+      }
+    ]
+  }
+}
