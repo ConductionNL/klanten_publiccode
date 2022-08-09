@@ -1,0 +1,126 @@
+{
+  "collection": "https://raw.githubusercontent.com/VNG-Realisatie/klanten-api/master/src/openapi.yaml",
+  "schemas": {
+    "Klant": [
+      {
+        "properties": {
+          "id": "dfba160f-bbc2-4be0-8b13-dd62b334c050",
+          "bronorganisatie": "999990639",
+          "klantnummer": "00000221",
+          "bedrijfsnaam": "Conduction B.V.",
+          "functie": "Developer",
+          "achternaam": "Moulin",
+          "voornaam": "Suzanne",
+          "websiteUrl": "https://conduction.nl",
+          "telefoonnummer": "0612341234",
+          "adres": {
+            "straatnaam": "Teststraat",
+            "huisnummer": 12,
+            "huisletter": "A",
+            "huisnummertoevoeging": "1",
+            "postcode": "1000AA",
+            "woonplaatsnaam": "Amsterdam",
+            "landcode": "6030"
+          },
+          "subject": "https://example.com",
+          "subjectType": "natuurlijk_persoon",
+          "subjectIdentificatie": {
+            "inpBsn": "999993653",
+            "anpANummer": "8940402024",
+            "geslachtsnaam": "Moulin",
+            "voorletters": "S",
+            "geslachtsaanduiding": "o"
+          }
+        }
+      },
+      {
+        "properties": {
+          "id": "8c7cc0a2-97dc-4559-9d79-d1107ad6d6a6",
+          "bronorganisatie": "999990639",
+          "klantnummer": "00000222",
+          "bedrijfsnaam": "Conduction B.V.",
+          "functie": "Developer",
+          "achternaam": "Doe",
+          "voornaam": "Roza",
+          "websiteUrl": "https://conduction.nl",
+          "subject": "https://example.com",
+          "subjectType": "natuurlijk_persoon"
+        }
+      },
+      {
+        "properties": {
+          "id": "de72c429-0d10-493e-9b9f-96116ea8d9f2",
+          "bronorganisatie": "999990639",
+          "klantnummer": "00000222",
+          "bedrijfsnaam": "Conduction B.V.",
+          "functie": "Developer",
+          "achternaam": "Doe",
+          "voornaam": "Samtee",
+          "websiteUrl": "https://conduction.nl",
+          "subject": "https://example.com",
+          "subjectType": "natuurlijk_persoon"
+        }
+      },
+      {
+        "properties": {
+          "id": "a8f81845-8f1d-4cb6-85be-640b481bf0a7",
+          "bronorganisatie": "999990639",
+          "klantnummer": "00000221",
+          "bedrijfsnaam": "Conduction B.V.",
+          "functie": "Developer",
+          "achternaam": "Doe",
+          "voornaam": "John",
+          "websiteUrl": "https://conduction.nl",
+          "telefoonnummer": "0612345789",
+          "emailadres": "johndoe@conduction.nl",
+          "adres": {
+            "straatnaam": "Teststraat",
+            "huisnummer": 12,
+            "huisletter": "A",
+            "huisnummertoevoeging": "1",
+            "postcode": "1000AA",
+            "woonplaatsnaam": "Amsterdam",
+            "landcode": "6030"
+          },
+          "subject": "https://example.com",
+          "subjectType": "natuurlijk_persoon",
+          "subjectIdentificatie": {
+            "anpANummer": "8940402024",
+            "geslachtsnaam": "Vaak",
+            "voorletters": "K",
+            "geslachtsaanduiding": "o"
+          }
+        }
+      },
+      {
+        "properties": {
+          "id": "e914352c-fc11-4fc4-a5e2-d50572920235",
+          "bronorganisatie": "999990639",
+          "klantnummer": "00000221",
+          "bedrijfsnaam": "Conduction B.V.",
+          "functie": "Developer",
+          "achternaam": "Doe",
+          "voornaam": "Joske",
+          "websiteUrl": "https://conduction.nl",
+          "adres": {
+            "straatnaam": "Teststraat",
+            "huisnummer": 12,
+            "huisletter": "A",
+            "huisnummertoevoeging": "1",
+            "postcode": "1000AA",
+            "woonplaatsnaam": "Amsterdam",
+            "landcode": "6030"
+          },
+          "subject": "https://example.com",
+          "subjectType": "natuurlijk_persoon",
+          "subjectIdentificatie": {
+            "anpANummer": "8940402024",
+            "geslachtsnaam": "Vaak",
+            "voorletters": "K",
+            "geslachtsaanduiding": "o"
+          }
+        }
+      }
+    ]
+  }
+}
