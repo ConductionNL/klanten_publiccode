@@ -8,11 +8,10 @@ schemas:
       klantnummer: '00000221'
       bedrijfsnaam: Conduction B.V.
       functie: Developer
-      achternaam: Vaak
-      voornaam: Klaas
+      achternaam: Moulin
+      voornaam: Suzanne
       websiteUrl: https://conduction.nl
-      telefoonnummer: '0612345789'
-      emailadres: test@conduction.nl
+      telefoonnummer: '0612341234'
       adres:
         straatnaam: Teststraat
         huisnummer: 12
@@ -26,9 +25,33 @@ schemas:
       subjectIdentificatie:
         inpBsn: '999993653'
         anpANummer: '8940402024'
-        geslachtsnaam: Vaak
-        voorletters: K
+        geslachtsnaam: Moulin
+        voorletters: S
         geslachtsaanduiding: o
+  # Klant Roza
+  - properties:
+      id: 8c7cc0a2-97dc-4559-9d79-d1107ad6d6a6
+      bronorganisatie: '999990639'
+      klantnummer: '00000222'
+      bedrijfsnaam: Conduction B.V.
+      functie: Developer
+      achternaam: Doe
+      voornaam: Roza
+      websiteUrl: https://conduction.nl
+      subject: https://example.com
+      subjectType: natuurlijk_persoon
+  # Klant Samtee
+  - properties:
+      id: de72c429-0d10-493e-9b9f-96116ea8d9f2
+      bronorganisatie: '999990639'
+      klantnummer: '00000222'
+      bedrijfsnaam: Conduction B.V.
+      functie: Developer
+      achternaam: Doe
+      voornaam: Samtee
+      websiteUrl: https://conduction.nl
+      subject: https://example.com
+      subjectType: natuurlijk_persoon
   # Klant zonder bsn
   - properties:
       id: a8f81845-8f1d-4cb6-85be-640b481bf0a7
@@ -56,7 +79,7 @@ schemas:
         geslachtsnaam: Vaak
         voorletters: K
         geslachtsaanduiding: o
-  # Klant met email
+  # Klant Joske
   - properties:
       id: e914352c-fc11-4fc4-a5e2-d50572920235
       bronorganisatie: '999990639'
@@ -64,9 +87,8 @@ schemas:
       bedrijfsnaam: Conduction B.V.
       functie: Developer
       achternaam: Doe
-      voornaam: Johan
+      voornaam: Joske
       websiteUrl: https://conduction.nl
-      emailadres: johandoe@conduction.nl
       adres:
         straatnaam: Teststraat
         huisnummer: 12
