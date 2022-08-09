@@ -1,7 +1,9 @@
 collection: https://raw.githubusercontent.com/VNG-Realisatie/klanten-api/master/src/openapi.yaml
 schemas:
   Klant:
+  # Klant met bsn
   - properties:
+      id: dfba160f-bbc2-4be0-8b13-dd62b334c050
       bronorganisatie: '999990639'
       klantnummer: '00000221'
       bedrijfsnaam: Conduction B.V.
@@ -27,7 +29,9 @@ schemas:
         geslachtsnaam: Vaak
         voorletters: K
         geslachtsaanduiding: o
+  # Klant zonder bsn
   - properties:
+      id: a8f81845-8f1d-4cb6-85be-640b481bf0a7
       bronorganisatie: '999990639'
       klantnummer: '00000221'
       bedrijfsnaam: Conduction B.V.
@@ -52,7 +56,9 @@ schemas:
         geslachtsnaam: Vaak
         voorletters: K
         geslachtsaanduiding: o
+  # Klant met email
   - properties:
+      id: e914352c-fc11-4fc4-a5e2-d50572920235
       bronorganisatie: '999990639'
       klantnummer: '00000221'
       bedrijfsnaam: Conduction B.V.
