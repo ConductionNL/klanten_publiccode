@@ -9,25 +9,18 @@
           "klantnummer": "00000221",
           "achternaam": "Moulin",
           "voornaam": "Suzanne",
-          "websiteUrl": "https://conduction.nl",
           "telefoonnummer": "0612341234",
           "adres": {
-            "straatnaam": "Teststraat",
-            "huisnummer": 12,
-            "huisletter": "A",
-            "huisnummertoevoeging": "1",
-            "postcode": "1000AA",
-            "woonplaatsnaam": "Amsterdam",
-            "landcode": "6030"
+            "straatnaam": "Boterdiep",
+            "huisnummer": 31,
+            "postcode": "3077AW",
+            "woonplaatsnaam": "Rotterdam",
+            "landcode": "5002"
           },
           "subject": "https://example.com",
           "subjectType": "natuurlijk_persoon",
           "subjectIdentificatie": {
             "inpBsn": "999993653",
-            "anpANummer": "8940402024",
-            "geslachtsnaam": "Moulin",
-            "voorletters": "S",
-            "geslachtsaanduiding": "o"
           }
         }
       },
@@ -36,25 +29,25 @@
           "id": "8c7cc0a2-97dc-4559-9d79-d1107ad6d6a6",
           "bronorganisatie": "999990639",
           "klantnummer": "00000222",
-          "bedrijfsnaam": "Conduction B.V.",
-          "functie": "Developer",
-          "achternaam": "Zywiatowska",
-          "voornaam": "Roza Mstyslava",
-          "websiteUrl": "https://conduction.nl",
+          "achternaam": "Żywiałowska",
+          "voornaam": "Róza Mstyslava",
+		  "emailadres": "icatttest+roza@gmail.com",
+          "telefoonnummer": "0612342718",		  
           "subject": "https://example.com",
-          "subjectType": "natuurlijk_persoon"
+          "subjectType": "natuurlijk_persoon",
+		  "subjectIdentificatie": {
+            "inpBsn": "999990172",
+          }
         }
       },
       {
         "properties": {
           "id": "de72c429-0d10-493e-9b9f-96116ea8d9f2",
           "bronorganisatie": "999990639",
-          "klantnummer": "00000222",
-          "bedrijfsnaam": "Conduction B.V.",
-          "functie": "Developer",
-          "achternaam": "Doe",
-          "voornaam": "Samtee",
-          "websiteUrl": "https://conduction.nl",
+          "klantnummer": "00000223",
+		  "emailadres": "icatttest+samtee@gmail.com",
+          "achternaam": "Teemuts",
+          "voornaam": "Sam",
           "subject": "https://example.com",
           "subjectType": "natuurlijk_persoon"
         }
@@ -63,12 +56,12 @@
         "properties": {
           "id": "a8f81845-8f1d-4cb6-85be-640b481bf0a7",
           "bronorganisatie": "999990639",
-          "klantnummer": "00000221",
-          "achternaam": "Doe",
-          "voornaam": "John",
+          "klantnummer": "00000224",
+          "achternaam": "Vaak",
+          "voornaam": "Klaas",
           "websiteUrl": "https://conduction.nl",
           "telefoonnummer": "0612345789",
-          "emailadres": "johndoe@conduction.nl",
+          "emailadres": "test@conduction.nl",
           "adres": {
             "straatnaam": "Teststraat",
             "huisnummer": 12,
@@ -76,15 +69,15 @@
             "huisnummertoevoeging": "1",
             "postcode": "1000AA",
             "woonplaatsnaam": "Amsterdam",
-            "landcode": "6030"
+            "landcode": "5002"
           },
           "subject": "https://example.com",
           "subjectType": "natuurlijk_persoon",
           "subjectIdentificatie": {
-            "anpANummer": "8940402024",
+            "anpANummer": "9987654321",
             "geslachtsnaam": "Vaak",
             "voorletters": "K",
-            "geslachtsaanduiding": "o"
+            "geslachtsaanduiding": "m"
           }
         }
       },
@@ -92,28 +85,19 @@
         "properties": {
           "id": "e914352c-fc11-4fc4-a5e2-d50572920235",
           "bronorganisatie": "999990639",
-          "klantnummer": "00000221",
-          "achternaam": "Doe",
+          "klantnummer": "00000225",
+          "achternaam": "Haas",
+		  "voorvoegselAchternaam": "de"
           "voornaam": "Joske",
-          "websiteUrl": "https://conduction.nl",
           "adres": {
-            "straatnaam": "Teststraat",
-            "huisnummer": 12,
-            "huisletter": "A",
-            "huisnummertoevoeging": "1",
-            "postcode": "1000AA",
-            "woonplaatsnaam": "Amsterdam",
-            "landcode": "6030"
+            "straatnaam": "Rodenrijselaan",
+            "huisnummer": 30,
+            "postcode": "3037XE",
+            "woonplaatsnaam": "Rotterdam",
+            "landcode": "5002"
           },
           "subject": "https://example.com",
           "subjectType": "natuurlijk_persoon",
-          "subjectIdentificatie": {
-            "inpBsn": "123456782",
-            "anpANummer": "8940402024",
-            "geslachtsnaam": "Vaak",
-            "voorletters": "K",
-            "geslachtsaanduiding": "o"
-          }
         }
       }
     ]
