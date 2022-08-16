@@ -20,7 +20,7 @@
           "subject": "https://example.com",
           "subjectType": "natuurlijk_persoon",
           "subjectIdentificatie": {
-            "inpBsn": "999993653",
+            "inpBsn": "999993653"
           }
         }
       },
@@ -36,7 +36,7 @@
           "subject": "https://example.com",
           "subjectType": "natuurlijk_persoon",
 	  "subjectIdentificatie": {
-            "inpBsn": "999990172",
+            "inpBsn": "999990172"
           }
         }
       },
@@ -97,7 +97,7 @@
             "landcode": "5002"
           },
           "subject": "https://example.com",
-          "subjectType": "natuurlijk_persoon",
+          "subjectType": "natuurlijk_persoon"
         }
       }
     ]
