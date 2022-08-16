@@ -31,11 +31,11 @@
           "klantnummer": "00000222",
           "achternaam": "Żywiałowska",
           "voornaam": "Róza Mstyslava",
-	  "emailadres": "icatttest+roza@gmail.com",
-          "telefoonnummer": "0612342718",		  
+          "emailadres": "icatttest+roza@gmail.com",
+          "telefoonnummer": "0612342718",                  
           "subject": "https://example.com",
           "subjectType": "natuurlijk_persoon",
-	  "subjectIdentificatie": {
+          "subjectIdentificatie": {
             "inpBsn": "999990172"
           }
         }
@@ -45,7 +45,7 @@
           "id": "de72c429-0d10-493e-9b9f-96116ea8d9f2",
           "bronorganisatie": "999990639",
           "klantnummer": "00000223",
-	  "emailadres": "icatttest+samtee@gmail.com",
+          "emailadres": "icatttest+samtee@gmail.com",
           "achternaam": "Teemuts",
           "voornaam": "Sam",
           "subject": "https://example.com",
@@ -87,7 +87,7 @@
           "bronorganisatie": "999990639",
           "klantnummer": "00000225",
           "achternaam": "Haas",
-	  "voorvoegselAchternaam": "de",
+          "voorvoegselAchternaam": "de",
           "voornaam": "Joske",
           "adres": {
             "straatnaam": "Rodenrijselaan",
