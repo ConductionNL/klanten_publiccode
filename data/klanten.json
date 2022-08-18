@@ -9,7 +9,16 @@
           "klantnummer": "00000221",
           "achternaam": "Moulin",
           "voornaam": "Suzanne",
-          "telefoonnummer": "0612341234",
+          "telefoonnummers": [
+            {
+              "naam": "telefoonnummer 1",
+              "telefoonnummer": "0101122334"
+            },
+            {
+              "naam": "telefoonnummer 2",
+              "telefoonnummer": "0612341234"
+            }
+          ],
           "adres": {
             "straatnaam": "Boterdiep",
             "huisnummer": 31,
@@ -31,7 +40,12 @@
           "klantnummer": "00000222",
           "achternaam": "Żywiałowska",
           "voornaam": "Róza Mstyslava",
-          "emailadres": "icatttest+roza@gmail.com",
+          "emails": [
+            {
+              "naam": "e-mailadres 1",
+              "email": "icatttest+roza@gmail.com"
+            }
+          ],
           "telefoonnummer": "0612342718",                  
           "subject": "https://example.com",
           "subjectType": "natuurlijk_persoon",
@@ -45,7 +59,12 @@
           "id": "de72c429-0d10-493e-9b9f-96116ea8d9f2",
           "bronorganisatie": "999990639",
           "klantnummer": "00000223",
-          "emailadres": "icatttest+samtee@gmail.com",
+          "emails": [
+            {
+              "naam": "e-mailadres 1",
+              "email": "icatttest+samtee@gmail.com"
+            }
+          ],
           "achternaam": "Teemuts",
           "voornaam": "Sam",
           "subject": "https://example.com",
@@ -61,7 +80,12 @@
           "voornaam": "Klaas",
           "websiteUrl": "https://conduction.nl",
           "telefoonnummer": "0612345789",
-          "emailadres": "test@conduction.nl",
+          "emails": [
+            {
+              "naam": "e-mailadres 1",
+              "email": "test@conduction.nl"
+            }
+          ],
           "adres": {
             "straatnaam": "Teststraat",
             "huisnummer": 12,
