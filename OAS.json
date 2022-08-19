@@ -1204,6 +1204,49 @@
       }
     },
     "schemas": {
+      "KlantTelefoon": {
+        "title": "KlantTelefoon",
+        "x-stoplight": {
+          "id": "jhhqm58ncjfmh"
+        },
+        "type": "object",
+        "nullable": true,
+        "properties": {
+          "naam": {
+            "type": "string",
+            "description": "De naam van dit telefoonnummer"
+          },
+          "telefoonnummer": {
+            "type": "string",
+            "description": "Het telefoonnummer"
+          }
+        },
+        "required": [
+          "telefoonnummer"
+        ]
+      },
+      "KlantEmail": {
+        "title": "KlantEmail",
+        "x-stoplight": {
+          "id": "uz3yk3rgpzu7l"
+        },
+        "type": "object",
+        "nullable": true,
+        "properties": {
+          "naam": {
+            "type": "string",
+            "description": "De naam van dit email"
+          },
+          "email": {
+            "type": "string",
+            "description": "Het email adres",
+            "format": "email"
+          }
+        },
+        "required": [
+          "email"
+        ]
+      },
       "KlantAdres": {
         "title": "Adres",
         "description": "Adresgegevens zoals opgegeven door de klant (kan ook een buitenlandsadres zijn)",
@@ -1324,22 +1367,23 @@
             "type": "string",
             "maxLength": 200
           },
-          "telefoonnummer": {
-            "type": "string",
-            "title": "Telefoonnummer",
-            "description": "Het mobiele of vaste telefoonnummer van de klant.",
-            "deprecated": true
+          "telefoonnummers": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/KlantTelefoon"
+            }
           },
-          "emailadres": {
-            "type": "string",
-            "title": "Emailadres",
-            "description": "Het e-mail adres van de klant.",
-            "format": "email",
-            "maxLength": 254,
-            "deprecated": true
+          "emails": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/KlantEmail"
+            }
           },
-          "adres": {
-            "$ref": "#/components/schemas/KlantAdres"
+          "adressen": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/KlantAdres"
+            }
           },
           "subject": {
             "title": "Subject",
@@ -1359,39 +1403,8 @@
             ],
             "nullable": true
           },
-          "telefoonnummers": {
-            "type": "array",
-            "items": {
-              "type": "object",
-              "properties": {
-                "naam": {
-                  "type": "string"
-                },
-                "telefoonnummer": {
-                  "type": "string"
-                }
-              }
-            }
-          },
-          "emails": {
-            "type": "array",
-            "items": {
-              "type": "object",
-              "properties": {
-                "naam": {
-                  "type": "string"
-                },
-                "email": {
-                  "type": "string"
-                }
-              }
-            }
-          },
-          "adressen": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/KlantAdres"
-            }
+          "subjectIdentificatie": {
+            "$ref": "#/components/schemas/NatuurlijkPersoon"
           }
         },
         "required": [
