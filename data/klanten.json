@@ -113,6 +113,12 @@
           "achternaam": "Haas",
           "voorvoegselAchternaam": "de",
           "voornaam": "Joske",
+          "telefoonnummers": [
+            {
+              "naam": "telefoonnummer 1",
+              "telefoonnummer": "0656785678"
+            }
+          ],
           "adres": {
             "straatnaam": "Rodenrijselaan",
             "huisnummer": 30,
